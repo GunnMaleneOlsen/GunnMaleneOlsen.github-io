@@ -1,0 +1,107 @@
+nav{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    color: #4D8F5D;
+    text-align: center;
+}
+nav a:hover,
+nav a:active,
+nav a:focus{
+    color: #FF5D6A;
+}
+h2{
+    color: rgb(65, 64, 64);
+    text-align: center;
+    margin: 2rem 0.5rem;
+    margin-top: 0;
+}
+.fa-github-square{
+    height: 3rem;
+    color: #13a031;
+    margin-right: 0.5rem;
+}
+
+.fa-github-square:hover,
+.fa-github-square:active,
+.fa-github-square:focus{
+    color: #FF5D6A;
+}
+
+.project__github a{
+    text-decoration: none;
+    font-size: 16pt;
+    color: rgb(65, 64, 64);
+}
+.project__github a:hover,
+.project__github a:active,
+.project__github a:focus{
+    color: #FF5D6A;
+}
+
+.project__title{
+    color: #4D8F5D;
+}
+
+.project{
+    margin: 2rem auto;
+    max-width: 40rem;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 25px;
+}
+
+.project__body{
+    padding: 1.5rem;
+}
+
+p a{
+    color: #13a031;
+}
+p a:hover,
+p a:active,
+p a:focus{
+    color: #FF5D6A;
+}
+.carousel-inner{
+    height: 20rem;
+    background-color: #a7b9ab8f;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.carousel-item{
+    height: inherit;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.carousel-item img{
+    height: inherit;
+    width: auto;
+    margin: auto;
+    box-shadow: 10px 10px 10px #7581788f;
+
+
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #d9dfda;
+}
+
+footer a{
+    font-size: 18pt;
+    text-decoration: none;
+    color: #13a031;
+}
+footer a:hover,
+footer a:active,
+footer a:focus{
+    color: #FF5D6A;
+}
